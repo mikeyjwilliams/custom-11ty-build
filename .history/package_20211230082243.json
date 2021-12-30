@@ -1,0 +1,24 @@
+{
+  "name": "custom-11ty-build",
+  "version": "1.0.0",
+  "description": "custom 11ty template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeyjwilliams/custom-11ty-build.git"
+  },
+  "keywords": [
+    "11ty",
+    "custom",
+    "template"
+  ],
+  "author": "Michael Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeyjwilliams/custom-11ty-build/issues"
+  },
+  "homepage": "https://github.com/mikeyjwilliams/custom-11ty-build#readme"
+}
