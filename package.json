@@ -4,6 +4,7 @@
   "description": "custom 11ty template",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf _site",
     "start": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve"
   },
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/mikeyjwilliams/custom-11ty-build/issues"
   },
-  "homepage": "https://github.com/mikeyjwilliams/custom-11ty-build#readme"
+  "homepage": "https://github.com/mikeyjwilliams/custom-11ty-build#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "cross-env": "^7.0.3",
+    "rimraf": "^3.0.2"
+  }
 }
