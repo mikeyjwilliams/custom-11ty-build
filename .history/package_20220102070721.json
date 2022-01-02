@@ -9,7 +9,7 @@
     "serve": "npx @11ty/eleventy --serve",
     "test:start": "DEBUG=ELEVENTY* npx @11ty/eleventy",
     "test:serve": "DEBUG=ELEVENTY* npx @11ty/eleventy --serve",
-    "drytest:start": "npx @11ty/eleventy --dryrun"
+    "drytest:start": "npx @11ty/eleventy --dryrun",
     
   },
   "repository": {
